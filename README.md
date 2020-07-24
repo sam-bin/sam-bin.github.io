@@ -1,2 +1,2 @@
-# springcloud-config
-测试springcloud的config配置中心
+# test static home page
+测试静态主页
