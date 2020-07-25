@@ -6,9 +6,16 @@
 <body>
 	<button onclick="javascript:get();">抽个签吧</button>
 </body>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
 <script>
 	window.onload = get;
 	function get(){
+                $.ajax({
+			url: "http://mask.51jkang.com/session",
+			success: function(result){
+				console.log(result);
+			}
+		})
 		var num = Math.floor(Math.random() * 9);
 		switch(num){
 			case 0: alert("下下签"); break;
