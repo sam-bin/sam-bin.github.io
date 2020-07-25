@@ -1,1 +1,27 @@
-1
+<html>
+<head>
+<title>CHOUGEQIANBA</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+	<button onclick="javascript:get();">抽个签吧</button>
+</body>
+<script>
+	window.onload = get;
+	function get(){
+		var num = Math.round(Math.random() * 9);
+		switch(num){
+			case 0: alert("下下签"); break;
+			case 1: alert("下中签"); break;
+			case 2: alert("下上签"); break;
+			case 3: alert("中下签"); break;
+			case 4: alert("中中签"); break;
+			case 5: alert("中上签"); break;
+			case 6: alert("上下签"); break;
+			case 7: alert("上中签"); break;
+			case 8: alert("上上签"); break;
+		}
+		// alert("没钱你抽个J吧");
+	}
+</script>
+</html>
