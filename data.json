@@ -1,0 +1,10 @@
+{
+    "name" : "Vue+JSON",
+    "age" : 22,
+    "address" : {
+        "country" : "vsgo",
+        "province" : "jlsu",
+        "city" : "njjk",
+        "strict" : "gulz"
+    }
+}
